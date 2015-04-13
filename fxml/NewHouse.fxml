@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane fx:id="scrollpane" fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="683.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40">
+   <content>
+      <Pane prefHeight="674.0" prefWidth="598.0">
+         <children>
+            <TextField layoutX="276.0" layoutY="40.0" prefHeight="25.0" prefWidth="200.0" />
+            <TextField layoutX="276.0" layoutY="240.0" prefHeight="25.0" prefWidth="200.0" />
+            <TextField layoutX="276.0" layoutY="190.0" prefHeight="25.0" prefWidth="200.0" />
+            <TextField layoutX="276.0" layoutY="90.0" prefHeight="25.0" prefWidth="200.0" />
+            <TextField layoutX="276.0" layoutY="140.0" prefHeight="25.0" prefWidth="200.0" />
+            <TextField layoutX="276.0" layoutY="290.0" prefHeight="25.0" prefWidth="200.0" />
+            <TextArea layoutX="157.0" layoutY="394.0" prefHeight="200.0" prefWidth="319.0" />
+            <Label layoutX="90.0" layoutY="43.0" prefHeight="20.0" prefWidth="70.0" text="First Name" />
+            <Label layoutX="90.0" layoutY="93.0" prefHeight="20.0" text="Last Name" />
+            <Label layoutX="90.0" layoutY="143.0" prefHeight="20.0" text="Address" />
+            <Label layoutX="90.0" layoutY="193.0" prefHeight="20.0" text="Building Type" />
+            <Label layoutX="90.0" layoutY="243.0" prefHeight="20.0" text="Year of Contruction" />
+            <Label layoutX="90.0" layoutY="293.0" prefHeight="20.0" text="Value Estamate" />
+            <Label layoutX="95.0" layoutY="394.0" prefHeight="20.0" text="Notes" />
+            <Button layoutX="166.0" layoutY="625.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Sumbit" />
+            <Button layoutX="322.0" layoutY="625.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Cancel" />
+         </children>
+      </Pane>
+   </content>
+</ScrollPane>
